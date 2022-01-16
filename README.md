@@ -25,6 +25,7 @@ Next, I go to the edge node and create a file using touch exec.sh, then use comm
 5- touch exec.sh (edge node command)
 
 6- vi exec.sh    (----- Click 'I' ----> put the below commands ---> Click 'ESC' --- > :wq!)
+
 7. Paste those below commands 
 
 ==> sqoop import --connect jdbc:mysql://localhost/sss --username root --password cloudera  --table txntab -m 1 --target-dir /user/cloudera/srcdata
