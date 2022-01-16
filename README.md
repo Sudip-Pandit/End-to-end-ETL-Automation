@@ -13,7 +13,7 @@ Next, I go to the edge node and create a file using touch exec.sh, then use comm
      1) sqoop import --connect jdbc:mysql://localhost/sss --username root --password cloudera  --table txntab -m 1 --target-dir /user/cloudera/srcdata
      2) hive -e "create table srctab1(id int,tdate string,category string) row format delimited fields terminated by ',' location '/user/cloudera/srcdata';create external table tartab1(id int,tdate string,category string) row format delimited fields terminated by ',' location '/user/cloudera/ttdir';insert into tartab1 select * from srctab1 where category='Gymnastics';drop table srctab1;drop table tartab1;"
 
-# Complete step by tep process
+# Complete step by step process
 1- create a database name sss;
 
 2- Use sss;
