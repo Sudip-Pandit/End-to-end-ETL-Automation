@@ -34,4 +34,11 @@ Next, I go to the edge node and create a file using touch exec.sh, then use comm
       
  8. Run sh exec.sh (edge node command).
 
+![image](https://user-images.githubusercontent.com/70854976/149675202-6b4983db-10f1-4ed2-b46e-cf149da189c8.png)
+![image](https://user-images.githubusercontent.com/70854976/149675501-631d509a-b9ec-42b0-8824-02671c79894f.png)
+![image](https://user-images.githubusercontent.com/70854976/149675225-8ab04959-de13-4078-994a-008fd2a479a7.png)
+![image](https://user-images.githubusercontent.com/70854976/149675535-ba490f7f-77c6-42fd-9253-3db591860b0c.png)
+
+
+
       
