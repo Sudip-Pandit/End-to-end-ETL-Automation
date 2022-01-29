@@ -35,10 +35,10 @@ Next, I go to the edge node and create a file using touch exec.sh, then use comm
 
 ==> sqoop import --connect jdbc:mysql://localhost/sss --username root --password cloudera  --table txntab -m 1 --target-dir /user/cloudera/srcdata
 
-==> `hive -e "create table srctab1(id int,tdate string,category string) row format delimited fields terminated by ',' 
+==> `hive -e "create table srctab1(id int,tdate string,category string) row format delimited fields terminated by ','` 
    `location '/user/cloudera/srcdata';create external table    tartab1(id int,tdate string,category string) row format delimited fields terminated by ',' location`  `'/user/cloudera/ttdir';insert into tartab1 select * from srctab1 where category='Gymnastics';drop table srctab1;drop table tartab1;"`
       
- 8. Run sh exec.sh (edge node command).
+ `8. Run sh exec.sh (edge node command).`
  
  # `Screenshots of full command execution`
 
